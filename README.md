@@ -1,19 +1,24 @@
-#Wordpress Migration Script
+#Wordpress Database Migration
 
-Update/tidy Wordpress databse during migration. This script performs the following tasks:
+Update/tidy Wordpress database after domain migration. This script performs the following tasks:
 
 * Updates absolute URLs in posts, post_meta and options tables.
 * Deletes post revisions.
-* Removes sample comment(s).
-* Closes global and post comments and pingbacks.
+* Removes sample comments.
+* Closes global and individual post comments and pingbacks.
 
 ##Usage
 
-Open config.php and define the following constants with the relevant information.
+1. Upload the *migrate* directory to the root of your website.
+2. Navigate to the script in your browser e.g. '{DOMAIN_NAME}/migrate'.
+3. Define the following peices of information:
 
-* Database name, user and password.
-* Old site url.
-* New site url.
-* Wordpress table prefix.
+* Database name
+* Database user
+* Database password
+* Old site URL
+* New site URL
+* Wordpress table prefix
 
-Upload the migrate directory to the root of the Wordpress site, and navigate to it in the browser e.g. '{DOMAIN_NAME}/migrate'.
+You can also define these values in *config.php*.
+4. Submit the form to complete the process.
