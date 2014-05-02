@@ -14,11 +14,12 @@ Update/tidy Wordpress database after domain migration. This script performs the 
 2. Navigate to the script in your browser e.g. '{DOMAIN_NAME}/migrate'.
 
 3. Define the following peices of information in the form or *config.php*:
-* Database name
-* Database user
-* Database password
-* Old site URL
-* New site URL
-* Wordpress table prefix
+
+- Database name
+- Database user
+- Database password
+- Old site URL
+- New site URL
+- Wordpress table prefix
 
 4. Submit the form to complete the process.
