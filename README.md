@@ -10,16 +10,7 @@ Update/tidy Wordpress database after domain migration. This script performs the 
 ##Usage
 
 1. Upload the *migrate* directory to the root of your website.
-
-2. Navigate to the script in your browser e.g. '{DOMAIN_NAME}/migrate'.
-
-3. Define the following peices of information in the form or *config.php*:
-
-- Database name
-- Database user
-- Database password
-- Old site URL
-- New site URL
-- Wordpress table prefix
-
+2. Navigate to the script in your browser e.g. *'{DOMAIN_NAME}/migrate'*.
+3. Define database name, database user, database password, old site URL, new site URL and wordpress table prefix in the form or *config.php*:
 4. Submit the form to complete the process.
+5. **Important!** Remember to delete the migrate directory when finished.
